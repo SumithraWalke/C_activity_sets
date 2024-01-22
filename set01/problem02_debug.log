@@ -25,3 +25,13 @@ Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_act
 13	}
 +n
 0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++quit
+A debugging session is active.
+
+	Inferior 1 [process 18104] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
