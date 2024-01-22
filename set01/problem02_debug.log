@@ -21,3 +21,7 @@ Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_act
 11	    printf("the sum of %d and %d is %d ",a,b,sum);
 +n
 12	    return 0;
++n
+13	}
++n
+0x00401288 in __register_frame_info ()
