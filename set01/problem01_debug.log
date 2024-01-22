@@ -52,3 +52,13 @@ Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_s
 The program is not being run.
 +s
 The program is not being run.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem01.exe 
+[New Thread 15904.0x4288]
+[New Thread 15904.0x26b4]
+[New Thread 15904.0x1620]
+[New Thread 15904.0x16c]
+[Inferior 1 (process 15904) exited normally]
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
