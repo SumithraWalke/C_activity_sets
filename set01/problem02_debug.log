@@ -1,0 +1,23 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem02.c, line 6.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem02.exe 
+[New Thread 18104.0x537c]
+[New Thread 18104.0x429c]
+[New Thread 18104.0x48c]
+[New Thread 18104.0x4ec4]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem02.c:6
+6	    printf("enter the first number:");
++n
+7	    scanf("%d",&a);
++n
+8	    printf("enter the second number:");
++n
+9	    scanf("%d",&b);
++n
+10	    sum=a+b;
++n
+11	    printf("the sum of %d and %d is %d ",a,b,sum);
++n
+12	    return 0;
