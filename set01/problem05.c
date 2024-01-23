@@ -7,3 +7,8 @@ int input()
     return largest;
 }
 
+int compare(int a, int b, int c)
+{
+    int largest;
+    if(a>b)
+}
