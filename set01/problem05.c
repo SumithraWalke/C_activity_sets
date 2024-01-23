@@ -1,10 +1,10 @@
 #include<stdio.h>
 int input()
 {    
-    int a,b,c,largest;
+    int n;
     printf("enter the number:\n");
-    scanf("%d %d %d",&a,&b,&c);
-    return largest;
+    scanf("%d",n);
+    return n;
 }
 
 int compare(int a, int b, int c)
