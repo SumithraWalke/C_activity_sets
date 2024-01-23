@@ -7,5 +7,9 @@ void input(int *a, int *b, int *c)
 }
 void compare(int a,int b,int c,int *largest)
 {
-    if (a)
+    if (a>b&&a>c)
+    {
+        *largest=a;
+    }
+    if(b>a&&)
 }
