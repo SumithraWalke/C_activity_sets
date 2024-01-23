@@ -5,4 +5,7 @@ void input(int *a, int *b, int *c)
     scanf("%d %d %d",a,b,c);
 
 }
-void compare(int a,int b,int c,in)
+void compare(int a,int b,int c,int *largest)
+{
+    
+}
