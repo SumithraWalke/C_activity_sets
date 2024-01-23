@@ -3,7 +3,7 @@ int input()
 {    
     int a,b,c,largest;
     printf("enter the number:\n");
-    scanf("%d %d %d",a,b,c);
+    scanf("%d %d %d",&a,&b,&c);
     return largest;
 }
 
