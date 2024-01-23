@@ -4,7 +4,7 @@ int input()
     int a,b,c,largest;
     printf("enter the number:\n");
     scanf("%d %d %d",a,b,c);
-    return largest;
+    return n;
 }
 
 int compare(int a, int b, int c)
