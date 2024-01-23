@@ -33,5 +33,6 @@ int main()
 {
     int a,b,c,largest;
     largest=input(a,b,c);
-    largest=
+    largest=compare(a,b,c);
+    
 }
