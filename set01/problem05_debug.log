@@ -1,0 +1,42 @@
++b main
+Breakpoint 1 at 0x4014f3: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c, line 35.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem05.exe 
+[New Thread 10620.0x4950]
+[New Thread 10620.0x2a2c]
+[New Thread 10620.0x454c]
+[New Thread 10620.0x194]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c:35
+35	a=input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c:5
+5	printf("enter the number:\n");
++s
+6	scanf("%d",&num);
++s
+7	return num;
++s
+8	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c:36
+36	b=input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c:5
+5	printf("enter the number:\n");
++s
+6	scanf("%d",&num);
++s
+7	return num;
++s
+8	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c:37
+37	c=input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem05.c:5
+5	printf("enter the number:\n");
++s
+6	scanf("%d",&num);
++s
+7	return num;
