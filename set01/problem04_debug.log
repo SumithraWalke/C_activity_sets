@@ -1,0 +1,14 @@
++b main
+Breakpoint 1 at 0x4014cf
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem04.exe 
+[New Thread 8544.0x4cc0]
+[New Thread 8544.0x1d6c]
+[New Thread 8544.0x2574]
+[New Thread 8544.0x2654]
+
+Breakpoint 1, 0x004014cf in main ()
++n
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
