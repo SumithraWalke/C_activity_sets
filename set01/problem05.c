@@ -29,3 +29,8 @@ void output(int a, int b, int c, int largest)
 {
     printf("the largest of %d,%d and %d is %d",a,b,c,largest);
 }
+int main()
+{
+    int a,b,c,largest;
+    largest=
+}
