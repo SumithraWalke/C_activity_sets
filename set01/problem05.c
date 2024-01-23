@@ -32,7 +32,7 @@ void output(int a, int b, int c, int largest)
 int main()
 {
     int a,b,c,largest;
-    largest=input(a,b,c);
+    a=input(a,b,c);
     largest=compare(a,b,c);
     output(a,b,c,largest);
     return 0;
