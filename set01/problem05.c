@@ -32,5 +32,6 @@ void output(int a, int b, int c, int largest)
 int main()
 {
     int a,b,c,largest;
+    largest=input(a,b,c);
     largest=
 }
