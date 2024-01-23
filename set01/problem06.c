@@ -2,5 +2,7 @@
 int input(int *a, int *b, int *c)
 {
     printf("Enter the numbers:\n");
-    scanf("%")
+    scanf("%d %d %d",a,b,c);
+    
+
 }
