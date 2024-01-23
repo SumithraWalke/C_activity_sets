@@ -33,6 +33,8 @@ int main()
 {
     int a,b,c,largest;
     a=input(a,b,c);
+    b=input(a,b,c);
+    c=input(a,b,c);
     largest=compare(a,b,c);
     output(a,b,c,largest);
     return 0;
