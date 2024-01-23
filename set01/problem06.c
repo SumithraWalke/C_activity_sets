@@ -20,3 +20,7 @@ void compare(int a,int b,int c,int *largest)
         *largest=c;
     }
 }
+void output(int a, int b, int c, int largest)
+{
+    printf("the largest of three number is ")
+}
