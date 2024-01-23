@@ -26,3 +26,6 @@ int compare(int a, int b, int c)
     return largest;
 }
 void output(int a, int b, int c, int largest)
+{
+    printf("the largest of %d,%d")
+}
