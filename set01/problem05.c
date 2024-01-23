@@ -19,4 +19,8 @@ int compare(int a, int b, int c)
     {
         largest=b;
     }
+    else 
+    largest=c;
+    
+
 }
