@@ -205,3 +205,19 @@ $2 = 5
 +c
 Continuing.
 [Inferior 1 (process 13180) exited normally]
++p i
+No symbol "i" in current context.
++p n
+No symbol "n" in current context.
++b main
+Note: breakpoints 1, 3, 4 and 5 also set at pc 0x4014e8.
+Breakpoint 6 at 0x4014e8: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem07.c, line 25.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem07.exe 
+[New Thread 18340.0x2644]
+[New Thread 18340.0x5764]
+[New Thread 18340.0x381c]
+[New Thread 18340.0x2858]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem07.c:25
+25	n,sum;
