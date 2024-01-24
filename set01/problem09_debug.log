@@ -32,3 +32,32 @@ square_root (n=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activit
 25	    while (fabs(guess - previous_guess) > epsilon)
 +s
 31	    return guess;
++s
+32	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:47
+47	    output(number, result);
++s
+output (n=0, sqrroot=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:36
+36	    if (sqrroot >= 0)
++s
+38	        printf("The square root of %f is approximately %f\n", n, sqrroot);
++s
+40	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:48
+48	    return 0;
++s
+49	}
++s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++quit
+A debugging session is active.
+
+	Inferior 1 [process 10008] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
