@@ -12,7 +12,6 @@ int sum_n_nos(int n)
     for (int i=0;i<=n;i++)
     {
         sum += i;
-        break;
     } 
     return sum;
     
