@@ -9,3 +9,26 @@ Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_s
 
 Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:45
 45	    number = input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:7
+7	    printf("Enter a number: ");
++s
+8	    scanf("%f", &n);
++s
+9	    return n;
++s
+10	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:46
+46	    result = square_root(number);
++s
+square_root (n=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:15
+15	    if (n < 0)
++s
+21	    float guess = n;
++s
+23	    float epsilon = 0.0001;
++s
+25	    while (fabs(guess - previous_guess) > epsilon)
++s
+31	    return guess;
