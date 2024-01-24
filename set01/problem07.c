@@ -14,6 +14,7 @@ int sum_n_nos(int n)
         sum += i;
     }
     return sum;
+    break;
 }
 void output(int n,int sum)
 {
