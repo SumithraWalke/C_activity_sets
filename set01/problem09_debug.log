@@ -1,0 +1,11 @@
++b main
+Breakpoint 1 at 0x401537: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c, line 45.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem09.exe 
+[New Thread 10008.0x30e4]
+[New Thread 10008.0x37c]
+[New Thread 10008.0x2770]
+[New Thread 10008.0x450c]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01\problem09.c:45
+45	    number = input();
