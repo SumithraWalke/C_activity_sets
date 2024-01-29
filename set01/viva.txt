@@ -1,0 +1,26 @@
+a program starts with # , which is used to indicate that every lines with hash should be processed by the preprocessor.
+preprocessor reads all line starting with hash.
+a gcc compiler converts a c source file to executable file .
+the input and the output file will be in the form of c source file. 
+
+A header file contains the prototype of the inbuilt function
+
+every line of the program should be compiled by the compiler.
+
+function prototype tells us abt the return type and name of the functions and list of arguments 
+
+stdio.h is a headerfile that contains input and output functions
+
+what is the use of function prototype?
+it is used by compiler to check function call is passing right number of parameters,right type of parameter and returning value is assigned to right type of variable.
+
+what is int main()
+int main()
+{
+
+}
+main is a function,main return an integer, main is starting point of a program.
+
+what is printf
+printf is a stationary function use to print a string on the console terminal,screen
+
