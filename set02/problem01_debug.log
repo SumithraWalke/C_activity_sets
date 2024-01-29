@@ -1,0 +1,55 @@
++b main
+Breakpoint 1 at 0x401505: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c, line 21.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02/./problem01.exe 
+[New Thread 24176.0x5f78]
+[New Thread 24176.0x5d60]
+[New Thread 24176.0x4dbc]
+[New Thread 24176.0x3ef0]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:21
+21	    input(&base,&height);
++s
+input (base=0x61ff1c, height=0x61ff18) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:4
+4	    printf("enter the length of base of triangle:\n");
++s
+5	    scanf("%f",base);
++s
+6	    printf("enter the height of the triangle:\n");
++s
+7	    scanf("%f",height);
++s
+8	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:22
+22	    find_area(base,height,&area);
++s
+find_area (base=3.74229647e-039, height=0, area=0x61ff14) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:11
+11	    *area=0.5*base*height;
++s
+12	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:23
+23	    output(base,height,area);
++s
+output (base=3.74229647e-039, height=0, area=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:15
+15	    printf("The area of triangle with base %f and height %f is %f",base,height,area);
++s
+17	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem01.c:24
+24	    return 0;
++s
+26	}
++s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++quit
+A debugging session is active.
+
+	Inferior 1 [process 24176] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
