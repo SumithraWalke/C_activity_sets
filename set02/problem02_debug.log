@@ -1,0 +1,20 @@
++b main
+Breakpoint 1 at 0x40151b
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02/./problem02.exe 
+[New Thread 13120.0x29f4]
+[New Thread 13120.0x3920]
+[New Thread 13120.0x5fc8]
+[New Thread 13120.0xf60]
+
+Breakpoint 1, 0x0040151b in main ()
++s
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++quit
+A debugging session is active.
+
+	Inferior 1 [process 13120] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
