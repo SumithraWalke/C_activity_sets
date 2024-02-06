@@ -7,10 +7,10 @@ struct _complex
 typedef struct _complex Complex;
 Complex input_complex()
 {
-    Complex a;
+    Complex n;
     printf("Enter the Real and imaginary part of the number: ");
-    scanf("%f %f",&a.real,&a.imaginary);
-    return a;
+    scanf("%f %f",&n.real,&n.imaginary);
+    return n;
 }
 Complex add_complex(Complex a,Complex b)
 {
