@@ -71,3 +71,49 @@ A debugging session is active.
 	Inferior 1 [process 8348] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b main
+Breakpoint 1 at 0x401568
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem10.exe 
+[New Thread 9296.0x334c]
+[New Thread 9296.0x8b4]
+[New Thread 9296.0x161c]
+[New Thread 9296.0x4298]
+
+Breakpoint 1, 0x00401568 in main ()
++s
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++b 9
+Breakpoint 2 at 0x402150: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 9.
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem10.exe 
+[New Thread 8872.0x3d0c]
+[New Thread 8872.0x4de8]
+[New Thread 8872.0x34a4]
+[New Thread 8872.0x2cc0]
+
+Breakpoint 2, __chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++n
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set01/./problem10.exe 
+[New Thread 1952.0x63c]
+[New Thread 1952.0x4a28]
+[New Thread 1952.0x44f8]
+[New Thread 1952.0x4588]
+
+Breakpoint 2, __chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++q
+A debugging session is active.
+
+	Inferior 1 [process 1952] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
