@@ -22,7 +22,7 @@ float square_root(float n)
     float previous_guess;
     float epsilon = 0.0001;
 
-    while (fabs(guess - previous_guess) > epsilon)
+    while (fabs(guess - previous_guess)> epsilon)
     {
         previous_guess = guess;
         guess = 0.5 * (guess + n / guess);
