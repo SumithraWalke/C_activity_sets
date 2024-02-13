@@ -1,0 +1,41 @@
++b main
+Breakpoint 1 at 0x40151c: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem06.c, line 27.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02/./problem06.exe 
+[New Thread 17172.0x3de4]
+[New Thread 17172.0x46b8]
+[New Thread 17172.0x4424]
+[New Thread 17172.0x1aa8]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem06.c:27
+27	    input_string(a);
++s
+input_string (a=0x61febc "üþa") at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem06.c:5
+5	    printf("enter the string:");
++p hello
+No symbol "hello" in current context.
++s
+6	    scanf("%s",a);
++s
+7	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem06.c:28
+28	    str_reverse(a,rev_str);
++s
+str_reverse (str=0x61febc "s", rev_str=0x61fe58 "¨þa") at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem06.c:10
+10	    int length=strlen(str);
++s
+11	    for(int i=0; i<length; i++)
++s
+13	        rev_str[i]=str[length-1-i];
++s
+11	    for(int i=0; i<length; i++)
++s
+15	    rev_str[length]='\0';
++s
+17	}
++ss
+Undefined command: "ss".  Try "help".
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem06.c:29
+29	    output(a,rev_str);
