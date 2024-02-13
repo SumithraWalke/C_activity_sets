@@ -1,0 +1,58 @@
++b main
+Breakpoint 1 at 0x401524: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c, line 27.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02/./problem07.exe 
+[New Thread 2360.0x1338]
+[New Thread 2360.0x3b24]
+[New Thread 2360.0x3a10]
+[New Thread 2360.0x1b9c]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:27
+27	    t=input_triangle();
++s
+input_triangle () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:10
+10	    printf("Enter the base of the triangle:\n ");
++s
+11	    scanf("%f",&t.base);
++s
+12	    printf("Enter the altitude of the triangle:\n");
++s
+13	    scanf("%f",&t.altitude);
++s
+14	    return t;
++s
+15	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:28
+28	    find_area(&t);
++s
+find_area (t=0x60ff14) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:18
+18	    t->area = 0.5*t->base*t->altitude;
++s
+19	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:29
+29	    output(t);
++s
+output (t=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:22
+22	  printf("Area of triangle of base %.2f and altitude %.2f is %.2f",t.base,t.altitude,t.area);  
++s
+23	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem07.c:30
+30	    return 0;
++s
+31	}
++s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
