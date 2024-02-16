@@ -1,0 +1,36 @@
++b main
+Breakpoint 1 at 0x4016d2: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem08.c, line 62.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02/./problem08.exe 
+[New Thread 12944.0x318c]
+[New Thread 12944.0x112c]
+[New Thread 12944.0x28cc]
+[New Thread 12944.0x2918]
+
+Breakpoint 1, 0x004016d2 in main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem08.c:62
+62	{
++s
+63	    int n = input_n();
++s
+input_n () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem08.c:10
+10	    printf("enter the number of triangles:");
++s
+11	    scanf("%d",&n);
++s
+12	    return n;
++s
+13	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set02\problem08.c:64
+64	    Triangle triangles[n];
++s
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++s
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+167	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+168	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+169	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
