@@ -1,4 +1,0 @@
-Compilation started at 2/16/2024, 5:28:46 PM
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem01.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-Compilation finished at 2/16/2024, 5:28:46 PM
