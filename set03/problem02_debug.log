@@ -1,0 +1,70 @@
++b main
+Breakpoint 1 at 0x4015c0: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c, line 30.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03/./problem02.exe 
+[New Thread 4156.0x874]
+[New Thread 4156.0x32a4]
+[New Thread 4156.0x2f5c]
+[New Thread 4156.0x28f8]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:30
+30	    input_triangle(&x1,&y1,&x2,&y2,&x3,&y3);
++s
+input_triangle (x1=0x61ff18, y1=0x61ff0c, x2=0x61ff14, y2=0x61ff08, x3=0x61ff10, y3=0x61ff04)
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:4
+4	     printf("Enter the points of first co_ordinates:");
++s
+5	    scanf("%f %f",x1,y1);
++s
+6	    printf("Enter the points of second co-ordinates:");
++s
+7	    scanf("%f %f",x2,y2);
++s
+8	    printf("Enter the points of third co-ordinates:");
++s
+9	    scanf("%f %f",x3,y3);
++s
+10	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:31
+31	    result=is_triangle(x1,y1,x2,y2,x3,y3);
++s
+is_triangle (x1=0, y1=5.88741957e-039, x2=2.38930356e-038, y2=8.9996376e-039, x3=5.88729205e-039, y3=5.88729205e-039)
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:14
+14	    area= 0.5*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2));
++s
+15	    return area;
++s
+16	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:32
+32	    output(x1,y1,x2,y2,x3,y3,result);
++s
+output (x1=0, y1=5.88741957e-039, x2=2.38930356e-038, y2=8.9996376e-039, x3=5.88729205e-039, y3=5.88729205e-039, result=0)
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:19
+19	    if(result==0)
++s
+21	        printf("The points (%.2f,%.2f),(%.2f,%.2f) and (%.2f,%.2f) do not form a triangle",x1,y1,x2,y2,x3,y3);
++s
+26	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem02.c:33
+33	    return 0;
++ss
+Undefined command: "ss".  Try "help".
++ss
+Undefined command: "ss".  Try "help".
++s
+34	}+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
