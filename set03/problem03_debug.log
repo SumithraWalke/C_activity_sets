@@ -1,0 +1,58 @@
++b main
+Breakpoint 1 at 0x401513: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c, line 39.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03/./problem03.exe 
+[New Thread 14840.0x19fc]
+[New Thread 14840.0x45e8]
+[New Thread 14840.0xdf8]
+[New Thread 14840.0x48f4]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:39
+39	    num=input_number();
++s
+input_number () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:5
+5	    printf("enter the number:");
++s
+6	    scanf("%d",&n);
++s
+7	    return n;
++s
+8	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:40
+40	    result=is_prime(num);
++s
+is_prime (n=6356940) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:11
+11	    if(n<=1)
++s
+15	 for(int i=2;i*i<=n;i++)
++s
+17	    if (n%i==0)
++s
+19	        return 0;
++s
+23	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:41
+41	    output(num,result);
++s
+output (n=6356940, result=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:26
+26	    if(result)
++s
+32	        printf("%d is not a prime number",n);
++s
+35	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem03.c:42
+42	    return 0;
++s
+43	}
++s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
