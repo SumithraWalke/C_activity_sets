@@ -86,3 +86,50 @@ find_fibo (n=6356940) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_act
 16	   for(int i=2;i<=n;i++)
 +s
 18	    f=f0+f1;
++p f=5
+$1 = 5
++s
+19	    f0=f1;
++s
+20	    f1=f;
++s
+16	   for(int i=2;i<=n;i++)
++s
+18	    f=f0+f1;
++s
+19	    f0=f1;
++s
+20	    f1=f;
++s
+16	   for(int i=2;i<=n;i++)
++s
+18	    f=f0+f1;
++s
+19	    f0=f1;
++s
+20	    f1=f;
++s
+16	   for(int i=2;i<=n;i++)
++s
+18	    f=f0+f1;
++s
+19	    f0=f1;
++s
+20	    f1=f;
++s
+16	   for(int i=2;i<=n;i++)
++s
+18	    f=f0+f1;
++s
+19	    f0=f1;
++s
+20	    f1=f;
++s
+16	   for(int i=2;i<=n;i++)
++s
+18	    f=f0+f1;
++s
+19	    f0=f1;
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
