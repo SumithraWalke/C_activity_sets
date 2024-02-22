@@ -1,0 +1,61 @@
++b main
+Breakpoint 1 at 0x401520: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c, line 30.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03/./problem06.exe 
+[New Thread 13828.0x4d70]
+[New Thread 13828.0x454c]
+[New Thread 13828.0x3f0c]
+[New Thread 13828.0x2dc8]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:30
+30	    input_string(a,b);
++s
+input_string (a=0x61feb8 "\034“áuüþa", b=0x61fe54 "ëyž®¨þa") at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:4
+4	    printf("enter the string:");
++s
+5	    scanf("%s",a);
++s
+6	    printf("Enter the substring whose index has to be found: ");
++s
+7	    scanf("%s",b);
++s
+8	}
++ss
+Undefined command: "ss".  Try "help".
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:31
+31	    n=sub_str_index(a,b);
++s
+sub_str_index (string=0x61feb8 "s", substring=0x61fe54 "s") at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:12
+12	  for(int j=0;string[j]!='\0';j++)
++s
+15	      if(string[j]==substring[0])
++s
+17	        return j;
++s
+21	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:32
+32	    output(a,b,n);
++s
+output (string=0x61feb8 "s", substring=0x61fe54 "s", index=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:24
+24	    printf("The index of '%s' in '%s' is %d",substring,string,index);
++s
+25	  }
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem06.c:33
+33	    return 0;
++s
+34	  }+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
