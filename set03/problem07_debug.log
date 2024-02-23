@@ -1,0 +1,82 @@
++b main
+Breakpoint 1 at 0x401591: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c, line 47.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03/./problem07.exe 
+[New Thread 21252.0x1cf4]
+[New Thread 21252.0x5378]
+[New Thread 21252.0x40b4]
+[New Thread 21252.0x87c]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:47
+47	  L = input_line();
++s
+input_line () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:24
+24	  printf("Enter the co-ordinates of the 1st point:\n ");
++s
+25	  l1.p1 = input_point();
++s
+input_point () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:17
+17	  printf("Enter the x and y co-ordinates: ");
++s
+18	  scanf("%f %f", &l.x, &l.y);
++s
+19	  return l;
++s
+20	}
++s
+input_line () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:26
+26	  printf("Enter the co-ordinates of the 2nd point:\n ");
++s
+27	  l1.p2 = input_point();
++s
+input_point () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:17
+17	  printf("Enter the x and y co-ordinates: ");
++s
+18	  scanf("%f %f", &l.x, &l.y);
++s
+19	  return l;
++s
+20	}
++s
+input_line () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:28
+28	  l1.distance = 0;
++s
+29	  return l1;
++s
+30	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:48
+48	  find_length(&L);
++s
+find_length (l=0x61ff0c) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:34
+34	  dx = l->p2.x - l->p1.x;
++s
+35	  dy = l->p2.y - l->p1.y;
++s
+36	  float area = (dx * dx) + (dy * dy);
++s
+38	  l->distance = sqrt(area);
++s
+39	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:49
+49	  output(L);
++s
+output (l=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:42
+42	  printf("The distance between the points (%f,%f) and (%f,%f) is %f", l.p1.x, l.p1.y, l.p2.x, l.p2.y, l.distance);
++s
+43	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem07.c:50
+50	  return 0;
++s
+51	}+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
