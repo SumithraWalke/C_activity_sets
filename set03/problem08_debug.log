@@ -103,3 +103,12 @@ input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\
 +s
 36	    p->p[i] = input_point(prompt);
 +s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 5 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++s
+26	  scanf("%f %f", &x.x, &x.y);
++s
+27	  return x;
++s
+28	}
