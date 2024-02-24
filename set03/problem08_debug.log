@@ -1,0 +1,105 @@
++b main
+Breakpoint 1 at 0x4016b5: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c, line 75.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03/./problem08.exe 
+[New Thread 14940.0xd24]
+[New Thread 14940.0x1df4]
+[New Thread 14940.0x2528]
+[New Thread 14940.0x4f40]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:75
+75	  input_polygon(&p);
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:32
+32	  p->sides = input_n();
++s
+input_n () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:18
+18	  printf("Enter the number of sides of the polygon:\n ");
++s
+19	  scanf("%d", &n);
++s
+20	  return n;
++s
+21	}
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 1 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++s
+26	  scanf("%f %f", &x.x, &x.y);
++s
+27	  return x;
++s
+28	}
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 2 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++s
+26	  scanf("%f %f", &x.x, &x.y);
++s
+27	  return x;
++s
+28	}
++ss
+Undefined command: "ss".  Try "help".
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 3 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++s
+26	  scanf("%f %f", &x.x, &x.y);
++ss
+Undefined command: "ss".  Try "help".
++s
+27	  return x;
++s
+28	}
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 4 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++s
+26	  scanf("%f %f", &x.x, &x.y);
++s
+27	  return x;
++s
+28	}
++ss
+Undefined command: "ss".  Try "help".
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
