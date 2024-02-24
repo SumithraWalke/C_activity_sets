@@ -112,3 +112,92 @@ input_point (promt_msg=0x61f838 "Enter the coordiates of the point 5 (x,y):\n")
 27	  return x;
 +s
 28	}
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 6 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++s
+26	  scanf("%f %f", &x.x, &x.y);
++s
+27	  return x;
++s
+28	}
++s
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++s
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++s
+36	    p->p[i] = input_point(prompt);
++s
+input_point (promt_msg=0x61f838 "Enter the coordiates of the point 7 (x,y):\n")
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:25
+25	  printf("%s", promt_msg);
++n
+26	  scanf("%f %f", &x.x, &x.y);
++n
+27	  return x;
++n
+28	}
++n
+input_polygon (p=0x61fbe8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set03\problem08.c:33
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++nn
+Undefined command: "nn".  Try "help".
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
++n
+36	    p->p[i] = input_point(prompt);
++n
+33	  for (int i = 0; i < p->sides; i++)
++n
+35	    sprintf(prompt, "Enter the coordiates of the point %d (x,y):\n", i + 1);
