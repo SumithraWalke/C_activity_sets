@@ -19,7 +19,7 @@ void input_array(int n, int a[n])
     int sum=0;
     for(int i=0;i<n;i++)
     {
-      if(a[i]>1)
+      if(a[i]>2)
       {
       for(int j=2;j<=a[i]/2;j++)
       {
