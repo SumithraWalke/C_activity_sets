@@ -1,0 +1,88 @@
++b main
+Breakpoint 1 at 0x401572: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c, line 36.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04/./problem07.exe 
+[New Thread 6184.0x3e0]
+[New Thread 6184.0x53a4]
+[New Thread 6184.0x32c4]
+[New Thread 6184.0x2f4c]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:36
+36	    f1 = input_fraction();
++s
+input_fraction () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:8
+8	    printf("Enter numerator and denominator : ");
++s
+9	    scanf("%d %d", &f.num, &f.den);
++s
+10	    return f;
++s
+11	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:37
+37	    f2 = input_fraction();
++s
+input_fraction () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:8
+8	    printf("Enter numerator and denominator : ");
++s
+9	    scanf("%d %d", &f.num, &f.den);
++s
+10	    return f;
++s
+11	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:38
+38	    sum = add_fractions(f1, f2);
++s
+add_fractions (f1=..., f2=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:21
+21	    sum.num = f1.num * f2.den + f2.num * f1.den;
++s
+22	    sum.den = f1.den * f2.den;
++s
+24	    int gcd = find_gcd(sum.num, sum.den);
++s
+find_gcd (a=108, b=36) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:14
+14	    if (b == 0)
++s
+16	    return find_gcd(b, a % b);
++s
+find_gcd (a=36, b=0) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:14
+14	    if (b == 0)
++s
+15	        return a;
++s
+17	}
++s
+add_fractions (f1=..., f2=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:25
+25	    sum.num /= gcd;
++s
+26	    sum.den /= gcd;
++s
+28	    return sum;
++s
+29	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:39
+39	    output(f1, f2, sum);
++s
+output (f1=..., f2=..., sum=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:32
+32	    printf("The sum of %d/%d and %d/%d is %d/%d\n", f1.num, f1.den, f2.num, f2.den, sum.num, sum.den);
++s
+33	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem07.c:40
+40	    return 0;
++s
+41	}+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
