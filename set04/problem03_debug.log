@@ -1,0 +1,57 @@
++b main
+Breakpoint 1 at 0x401549: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c, line 35.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04/./problem03.exe 
+[New Thread 4676.0x2954]
+[New Thread 4676.0x1248]
+[New Thread 4676.0x3abc]
+[New Thread 4676.0x325c]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:35
+35	    input_n_and_r(&n, &r);
++s
+input_n_and_r (n=0x60ff18, r=0x60ff14) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:4
+4	    printf("Enter the values of n and r: ");
++s
+5	    scanf("%d %d", n, r);
++6 3
+Undefined command: "6".  Try "help".
++s
+6	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:36
+36	    result = nCr(n, r);
++s
+nCr (n=0, r=17569288) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:9
+9	    if (r > n) {
++s
+10	        return -1; 
++s
+23	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:37
+37	    output(n, r, result);
++s
+output (n=0, r=17569288, result=-1) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:26
+26	    if (result == -1) {
++s
+27	        printf("The value of nCr is undefined because r cannot be greater than n.\n");
++s
+31	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem03.c:38
+38	    return 0;
++s
+39	}+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
