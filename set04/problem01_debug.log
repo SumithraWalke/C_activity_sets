@@ -1,3 +1,7 @@
-Undefined command: "bset".  Try "help".
-Function "main\b main" not defined.
-Make breakpoint pending on future shared library load? (y or [n]) 
++b
+No default breakpoint address now.
++b main
+Breakpoint 1 at 0x40157d: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c, line 28.
++\set logging enabled off
+Undefined command: "".  Try "help".
++set loggin off
