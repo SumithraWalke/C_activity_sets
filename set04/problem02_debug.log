@@ -1,0 +1,84 @@
++b main
+Breakpoint 1 at 0x401588: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c, line 37.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04/./problem02.exe 
+[New Thread 2740.0x3b4]
+[New Thread 2740.0x4134]
+[New Thread 2740.0x57e8]
+[New Thread 2740.0x2500]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:37
+37	    x=input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:9
+9	printf("Enter the numerator and the denominator of the number:");
++s
+10	scanf("%d %d",&a.num,&a.den);
++s
+11	return a;
++s
+12	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:38
+38	    y=input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:9
+9	printf("Enter the numerator and the denominator of the number:");
++s
+10	scanf("%d %d",&a.num,&a.den);
++s
+11	return a;
++s
+12	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:39
+39	    z=input();
++s
+input () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:9
+9	printf("Enter the numerator and the denominator of the number:");
++s
+10	scanf("%d %d",&a.num,&a.den);
++s
+11	return a;
++s
+12	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:40
+40	    small=smallest(x,y,z);
++s
+smallest (a=..., b=..., c=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:16
+16	    p=a.num/a.den;
++s
+17	    q=b.num/b.den;
++s
+18	    r=c.num/c.den;
++s
+19	    if(p<q&&p<r)
++s
+22	    }else if(q<r)
++s
+26	        return c;
++s
+28	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:41
+41	    output(x,y,z,small);
++s
+output (a=..., b=..., c=..., small=...) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:31
+31	    printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d ",a.num,a.den,b.num,b.den,c.num,c.den,small.num,small.den);
++s
+33	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem02.c:42
+42	    return 0;
++s
+43	}+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
