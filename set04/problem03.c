@@ -10,7 +10,7 @@ int nCr(int n, int r) {
         return -1; 
     }
     if (r == 0 || n == 0) {
-        return 1; 
+        return 1;
     }
     int numerator = 1, denominator = 1;
     for (int i = n; i > n - r; i--) {
