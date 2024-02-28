@@ -5,3 +5,132 @@ Breakpoint 1 at 0x40157d: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub
 +\set logging enabled off
 Undefined command: "".  Try "help".
 +set loggin off
++b main
+Breakpoint 1 at 0x40157d: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c, line 28.
++s
+The program is not being run.
++s
+The program is not being run.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04/./problem01.exe 
+[New Thread 22292.0x2650]
+[New Thread 22292.0x64c]
+[New Thread 22292.0x2714]
+[New Thread 22292.0x2ae4]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:28
+28	    input(&num1, &den1, &num2, &den2);
++s
+input (num1=0x61ff0c, den1=0x61ff08, num2=0x61ff04, den2=0x61ff00)
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:9
+9	    printf("Enter first fraction (numerator/denominator): ");
++s
+10	    scanf("%d/%d", num1, den1);
++s
+12	    printf("Enter second fraction (numerator/denominator): ");
++s
+13	    scanf("%d/%d", num2, den2);
++s
+14	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:29
+29	    add(num1, den1, num2, den2, &res_num, &res_den);
++s
+add (num1=4201259, den1=6422356, num2=4201168, den2=1977320045, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:17
+17	    int g = gcd(den1, den2);
++s
+gcd (a=6422356, b=1977320045) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=1977320045, b=6422356) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=6422356, b=5656753) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=5656753, b=765603) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=765603, b=297532) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=297532, b=170539) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=170539, b=126993) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=126993, b=43546) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=43546, b=39901) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=39901, b=3645) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=3645, b=3451) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=3451, b=194) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=194, b=153) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=153, b=41) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=41, b=30) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=30, b=11) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=11, b=8) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=8, b=3) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
++s
+gcd (a=3, b=2) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem01.c:4
+4	    if (b == 0) return a;
++s
+5	    else return gcd(b, a % b);
