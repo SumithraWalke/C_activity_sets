@@ -1,0 +1,66 @@
++b main
+Breakpoint 1 at 0x401610: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem04.c, line 58.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04/./problem04.exe 
+[New Thread 28568.0x5168]
+[New Thread 28568.0x7314]
+[New Thread 28568.0x10d0]
+[New Thread 28568.0x54b0]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem04.c:58
+58	  n=input_degree();
++s
+input_degree () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem04.c:7
+7	  printf("Enter the degree of the polynomial\n");
++s
+8	  scanf("%d",&n);
++s
+9	  return n;
++s
+10	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem04.c:59
+59	  input_coefficients(n,x);
++s
+input_coefficients (n=9859896, a=0x61ef74) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem04.c:13
+13	  printf("Enter the coefficients:\n");
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
