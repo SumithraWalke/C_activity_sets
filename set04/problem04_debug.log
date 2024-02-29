@@ -64,3 +64,22 @@ input_coefficients (n=9859896, a=0x61ef74) at c:\Users\Sumithra Walke\OneDrive\D
 14	  for(int i=0;i<=n;i++)
 +s
 16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++p a[10]
+$1 = 1.38174643e-038
++n
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++s
+16	    scanf("%f",&a[i]);
++s
+14	  for(int i=0;i<=n;i++)
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
