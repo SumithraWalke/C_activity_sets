@@ -1,0 +1,65 @@
++b main
+Breakpoint 1 at 0x401504: file c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c, line 26.
++r
+Starting program: c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04/./problem06.exe 
+[New Thread 35424.0x840]
+[New Thread 35424.0x4d98]
+[New Thread 35424.0x787c]
+[New Thread 35424.0x848]
+
+Breakpoint 1, main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:26
+26	    input_string(a);
++s
+input_string (a=0x60feb8 "\034“áuüþ`") at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:5
+5	    printf("Please enter a string: ");
++s
+6	    scanf(" %[^\n]", a);
++s
+7	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:27
+27	  int wcount = count_words(a,string);
++s
+count_words (a=0x60feb8 "s", string=0x60fe54 "!") at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:10
+10	  int wcount=0;
++s
+11	  char x[]=" ";
++s
+12	   string = strtok(a,x);
++s
+13	  while(string!=NULL){
++s
+14	    wcount++;
++s
+15	    string=strtok(NULL,x);
++s
+13	  while(string!=NULL){
++s
+17	    return wcount;
++s
+18	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:28
+28	  output(wcount);
++s
+output (no_words=1) at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:21
+21	    printf("the number of words is %d\n",no_words);
++s
+22	}
++s
+main () at c:\Users\Sumithra Walke\OneDrive\Documents\GitHub\C_activity_sets\set04\problem06.c:30
+30	    return 0;
++s
+31	}+s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
